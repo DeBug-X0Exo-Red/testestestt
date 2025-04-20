@@ -1,4 +1,6 @@
 print("test101")
+print("test10error1")
+print("test101")
 -- -gh 108186273151388,84451219120140,139904067056008,72292903231768,95290698984301
 --[[_G.HideCharacter = true
 _G.FlingEnabled = false
@@ -221,7 +223,7 @@ local function redo()
 	end 
 	if _G.CustomHats == false then
 		pcall(function()
-			Hat.Rename("rbxassetid://125975972015302", "Tor")
+			Hat.Rename("rbxassetid://83269599235494", "Tor")
 			Hat.Rename("rbxassetid://135650240593878","","LARM")
 			Hat.Rename("rbxassetid://135650240593878","","RARM")
 		end)
@@ -265,7 +267,7 @@ local function redo()
 			Hat.Rename("rbxassetid://13415110780", "Tor")
 		end)
 		pcall(function()
-			Hat.Rename("rbxassetid://18640899481", "Tor")
+			Hat.Rename("rbxassetid://83269599235494", "Tor")
 		end)
 		pcall(function()
 			Hat.Rename("rbxassetid://14255543546","","LARM")
